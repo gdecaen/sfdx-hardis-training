@@ -12,6 +12,7 @@
     <types>
         <members>Energy_Contract__c.Energy_Contract_Compact</members>
         <members>Meter__c.Meter_Compact</members>
+        <members>Meter_Reading__c.Meter_Reading_Compact</members>
         <name>CompactLayout</name>
     </types>
     <types>
@@ -50,6 +51,11 @@
         <members>Meter__c.Last_Reading_Value__c</members>
         <members>Meter__c.Meter_Type__c</members>
         <members>Meter__c.Serial_Number__c</members>
+        <members>Meter_Reading__c.Abnormal__c</members>
+        <members>Meter_Reading__c.Meter__c</members>
+        <members>Meter_Reading__c.Reading_Date__c</members>
+        <members>Meter_Reading__c.Source__c</members>
+        <members>Meter_Reading__c.Value__c</members>
         <members>Panel_Batch__c.Arrival_Date__c</members>
         <members>Panel_Batch__c.Cost__c</members>
         <members>Panel_Batch__c.External_Id__c</members>
@@ -64,6 +70,7 @@
         <members>Handover_Item__c</members>
         <members>Installation__c</members>
         <members>Meter__c</members>
+        <members>Meter_Reading__c</members>
         <members>Panel_Batch__c</members>
         <name>CustomObject</name>
     </types>
@@ -73,6 +80,7 @@
         <members>Handover_Item__c</members>
         <members>Installation__c</members>
         <members>Meter__c</members>
+        <members>Meter_Reading__c</members>
         <members>Panel_Batch__c</members>
         <name>CustomTab</name>
     </types>
@@ -92,6 +100,7 @@
         <members>Handover_Item__c-Handover Item Layout</members>
         <members>Installation__c-Installation Layout</members>
         <members>Meter__c-Meter Layout</members>
+        <members>Meter_Reading__c-Meter Reading Layout</members>
         <members>Panel_Batch__c-Panel Batch Layout</members>
         <name>Layout</name>
     </types>
@@ -106,6 +115,7 @@
         <members>Installation__c.All_Installations</members>
         <members>Installation__c.Open_Installations</members>
         <members>Meter__c.All</members>
+        <members>Meter_Reading__c.All</members>
         <members>Panel_Batch__c.All_Panel_Batches</members>
         <name>ListView</name>
     </types>
