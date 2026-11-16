@@ -7,9 +7,24 @@
         <members>CrewSizeBackfillBatchTest</members>
         <members>InstallationScheduler</members>
         <members>InstallationSchedulerTest</members>
+        <members>MeterReadingAfterSaveFlow_Test</members>
+        <members>MeterReadingConstants</members>
         <members>MeterReadingController</members>
         <members>MeterReadingController_Test</members>
+        <members>MeterReadingSelector</members>
+        <members>MeterReadingSelector_Test</members>
+        <members>MeterReadingService</members>
+        <members>MeterReadingService_Test</members>
+        <members>MeterReadingTriggerHandler</members>
+        <members>MeterReadingTriggerHandler_Test</members>
+        <members>TestDataFactory</members>
+        <members>TriggerHandler</members>
+        <members>TriggerHandler_Test</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MeterReadingTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>Energy_Contract__c.Energy_Contract_Compact</members>
