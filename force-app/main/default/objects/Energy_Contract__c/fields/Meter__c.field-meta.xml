@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meter__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Meter supplied under this contract.</description>
+    <label>Meter</label>
+    <referenceTo>Meter__c</referenceTo>
+    <relationshipLabel>Energy Contracts</relationshipLabel>
+    <relationshipName>Energy_Contracts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
