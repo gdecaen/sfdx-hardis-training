@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abnormal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked automatically when the consumption of this reading (its Value minus the Value of the previous reading of the meter) is more than 3 times the average consumption of the 3 previous readings of the same meter. Estimated readings are never flagged and never counted. Set by MeterReadingService, never typed.</description>
+    <inlineHelpText>Checked automatically when this reading&apos;s consumption is more than 3 times the average of the 3 previous consumptions of the meter. Check the reading before it is billed.</inlineHelpText>
+    <label>Abnormal</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
