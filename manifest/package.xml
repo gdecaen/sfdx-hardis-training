@@ -86,6 +86,7 @@
     </types>
     <types>
         <members>Installation_Record_Page</members>
+        <members>Meter_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
