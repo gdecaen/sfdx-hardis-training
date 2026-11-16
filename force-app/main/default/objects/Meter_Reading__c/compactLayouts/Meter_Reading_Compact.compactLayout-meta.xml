@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meter_Reading_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Meter__c</fields>
+    <fields>Reading_Date__c</fields>
+    <fields>Value__c</fields>
+    <fields>Source__c</fields>
+    <label>Meter Reading Compact</label>
+</CompactLayout>
