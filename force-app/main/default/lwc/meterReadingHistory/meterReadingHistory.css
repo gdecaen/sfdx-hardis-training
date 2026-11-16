@@ -1,0 +1,8 @@
+.meter-reading-history-spinner {
+    position: relative;
+    min-height: 4rem;
+}
+
+.meter-reading-history-empty {
+    color: var(--slds-g-color-neutral-base-50, #747474);
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Meter_Consumption_Trend_Down</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend down</shortDescription>
+        <value>Down</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Error</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend generic error</shortDescription>
+        <value>The consumption trend could not be loaded.</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Loading</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend loading text</shortDescription>
+        <value>Loading consumption trend</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Not_Enough</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend not enough readings</shortDescription>
+        <value>Not enough readings yet</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Stable</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend stable</shortDescription>
+        <value>Stable</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Title</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend card title</shortDescription>
+        <value>Consumption trend</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Consumption_Trend_Up</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumption trend up</shortDescription>
+        <value>Up</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_Estimated_Task_Subject</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Estimated reading task subject</shortDescription>
+        <value>Check estimated meter reading</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Column_Date</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history date column</shortDescription>
+        <value>Reading Date</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Column_Source</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history source column</shortDescription>
+        <value>Source</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Column_Value</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history value column</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Empty</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history empty state</shortDescription>
+        <value>No readings yet for this meter.</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Error</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history generic error</shortDescription>
+        <value>The reading history could not be loaded.</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Loading</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history loading text</shortDescription>
+        <value>Loading readings</value>
+    </labels>
+    <labels>
+        <fullName>Meter_Reading_History_Title</fullName>
+        <categories>Helios Energy</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reading history card title</shortDescription>
+        <value>Last Readings</value>
+    </labels>
+</CustomLabels>

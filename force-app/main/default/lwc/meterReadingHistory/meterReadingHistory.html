@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title={labels.title} icon-name="custom:custom9">
+        <div class="meter-reading-history-body slds-var-p-horizontal_small">
+            <template lwc:if={isLoading}>
+                <div class="meter-reading-history-spinner">
+                    <lightning-spinner alternative-text={labels.loading} size="small"></lightning-spinner>
+                </div>
+            </template>
+            <template lwc:elseif={errorMessage}>
+                <p class="meter-reading-history-error slds-text-color_error" role="alert">{errorMessage}</p>
+            </template>
+            <template lwc:elseif={hasReadings}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={readings}
+                    columns={columns}
+                    hide-checkbox-column
+                    column-widths-mode="auto"
+                ></lightning-datatable>
+            </template>
+            <template lwc:else>
+                <p class="meter-reading-history-empty">{labels.empty}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

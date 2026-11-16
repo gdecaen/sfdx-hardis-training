@@ -7,6 +7,8 @@
         <members>CrewSizeBackfillBatchTest</members>
         <members>InstallationScheduler</members>
         <members>InstallationSchedulerTest</members>
+        <members>MeterReadingController</members>
+        <members>MeterReadingController_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -65,6 +67,24 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Meter_Consumption_Trend_Down</members>
+        <members>Meter_Consumption_Trend_Error</members>
+        <members>Meter_Consumption_Trend_Loading</members>
+        <members>Meter_Consumption_Trend_Not_Enough</members>
+        <members>Meter_Consumption_Trend_Stable</members>
+        <members>Meter_Consumption_Trend_Title</members>
+        <members>Meter_Consumption_Trend_Up</members>
+        <members>Meter_Reading_Estimated_Task_Subject</members>
+        <members>Meter_Reading_History_Column_Date</members>
+        <members>Meter_Reading_History_Column_Source</members>
+        <members>Meter_Reading_History_Column_Value</members>
+        <members>Meter_Reading_History_Empty</members>
+        <members>Meter_Reading_History_Error</members>
+        <members>Meter_Reading_History_Loading</members>
+        <members>Meter_Reading_History_Title</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>Crew_Capacity__c</members>
         <members>Energy_Contract__c</members>
         <members>Handover_Item__c</members>
@@ -86,6 +106,7 @@
     </types>
     <types>
         <members>Installation_Record_Page</members>
+        <members>Meter_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -106,6 +127,7 @@
     </types>
     <types>
         <members>installationTimeline</members>
+        <members>meterReadingHistory</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
