@@ -18,7 +18,7 @@ private class MeterReadingController_Test {
 	}
 
 	@isTest
-	static void shouldReturnTenLatestReadings_WhenMeterHasMoreReadings() {
+	static void shouldReturnTenLatestReadingsWhenMeterHasMoreReadings() {
 		System.runAs(TestDataFactory.getHeliosUser()) {
 			Id meterId = getMeterId('Test_Meter_Main');
 
@@ -32,7 +32,7 @@ private class MeterReadingController_Test {
 	}
 
 	@isTest
-	static void shouldReturnEmptyList_WhenMeterIdIsNullOrHasNoReading() {
+	static void shouldReturnEmptyListWhenMeterIdIsNullOrHasNoReading() {
 		System.runAs(TestDataFactory.getHeliosUser()) {
 			Id emptyMeterId = getMeterId('Test_Meter_Empty');
 
@@ -47,7 +47,7 @@ private class MeterReadingController_Test {
 	}
 
 	@isTest
-	static void shouldThrowAuraHandledException_WhenUserCannotReadReadings() {
+	static void shouldThrowAuraHandledExceptionWhenUserCannotReadReadings() {
 		Id meterId = getMeterId('Test_Meter_Main');
 		User restrictedUser = [SELECT Id FROM User WHERE LastName = 'Test_User_Restricted' LIMIT 1];
 		AuraHandledException caught;
