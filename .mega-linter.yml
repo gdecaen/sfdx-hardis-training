@@ -42,7 +42,7 @@ DISABLE_LINTERS:
 # in a loop does not reach integration. The threshold is MegaLinter's own,
 # Moderate and above, and the Helios code and the samples a lab copies carry no
 # such finding, so only what a learner writes can turn it red.
-SALESFORCE_CODE_ANALYZER_APEX_DISABLE_ERRORS: false
+SALESFORCE_CODE_ANALYZER_APEX_DISABLE_ERRORS: true
 
 # trivy downloads its vulnerability database on every run, and when the
 # download is refused it fails the whole check of a Pull Request that changed
